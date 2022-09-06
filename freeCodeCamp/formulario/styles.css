@@ -1,0 +1,143 @@
+body{
+  font-family:'Poppins', sans-serif;
+  font-size:1rem;
+  font-weight:400;
+  margin:0;
+  background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+}
+
+h1{
+  font-size: 32px;
+  text-align: center;
+  font-weight: 400;
+  margin:0;
+  margin-top: 35px;
+  color: #f3f3f3;
+}
+
+#description{
+  color: #f3f3f3;
+  font-size: 19px;
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+  margin: 2px 0px 30px 0px;
+}
+
+form{
+  background-color: rgba(27,27,50,0.8);
+  color: white;
+  border-radius: 4px;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 10px;
+}
+
+fieldset{
+  border: none;
+  margin: 0px 30px;
+  padding: 0px;
+}
+
+#name-label, #email-label, #number-label, #opcionFunciones-label{
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0px;
+
+} 
+
+#name, #email, #number, #dropdown{
+  height: 35px;
+  max-width: 100%;
+  width: 100%;
+  margin: 5px 0px 25px 0px;
+}
+
+input, #dropdown  {
+  border:1px solid #ced4da;
+  border-radius: 5px; 
+}
+
+select{
+  color:#747474;
+  font-size: 17px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.recomendacion{
+  display: flex;
+  margin: 5px 0px;
+}
+
+.recomendacion__texto{
+  margin: 0px;
+  margin-bottom: 3px;
+
+}
+
+input[type="radio"]{
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.fieldset__checkbox{
+  border: none;
+  margin: 0px 30px;
+  margin-top: 20px;
+  padding: 0px;
+}
+
+.checkbox__titulo{
+  margin: 0px;
+  margin-bottom: 7px;
+}
+
+.mejora{
+  display:flex;
+  margin-bottom: 3px;
+}
+
+input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  margin: 3px 10px 5px 4px;    
+}
+
+textarea{
+  display: flex;
+  min-width: auto;
+  width: 100%;
+  min-height: 120px;
+  margin-top: 8px;
+}
+
+.fieldset__comentario{
+  margin-top: 20px;
+}
+
+#submit{
+  min-width: auto;
+  width: 100%;
+  min-height: 40px;
+  margin:0px;
+  margin-top: 40px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+#submit:hover{
+  color: white;
+  background-color: #37af65;
+  border: none;
+}
+
+::placeholder{
+  color:#747474;
+  font-size: 17px;
+  font-weight: 400;
+  padding-left: 10px;
+}
